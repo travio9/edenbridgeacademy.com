@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Eden Bridge Academy</title>
+    <meta
+      name="description"
+      content="Contact Eden Bridge Academy for admissions, tours, and early childhood enrollment."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Eden Bridge Academy home">
+          <div class="brand-mark">E</div>
+          <div class="brand-text">
+            <span class="brand-name">Eden Bridge</span>
+            <small>Academy</small>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="Main Navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="programs.html">Programs</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary" href="contact.html">Enroll Now</a>
+        <button class="menu-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero contact-hero">
+        <div class="container page-hero-inner">
+          <div>
+            <p class="eyebrow accent">Contact</p>
+            <h1>We would love to welcome your family to Eden Bridge.</h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div class="contact-card">
+            <h2>Get in Touch</h2>
+            <ul class="contact-list">
+              <li><strong>Address:</strong> 123 Learning Lane, Kogello Junction</li>
+              <li><strong>Phone:</strong> (+254) 700 123 456</li>
+              <li><strong>Email:</strong> hello@edenbridgeacademy.org</li>
+              <li><strong>Hours:</strong> Mon–Fri: 7:30 AM – 4:00 PM</li>
+            </ul>
+          </div>
+
+          <div class="contact-card form-card">
+            <h2>Book a Tour</h2>
+            <form class="school-form">
+              <label>
+                Parent Name
+                <input type="text" name="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email Address
+                <input type="email" name="email" placeholder="Your email" />
+              </label>
+              <label>
+                Child Age Group
+                <select name="age">
+                  <option>Nursery</option>
+                  <option>Pre-School</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" placeholder="Tell us about your child and your interest"></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html" aria-label="Eden Bridge Academy home">
+            <div class="brand-mark">E</div>
+            <div class="brand-text">
+              <span class="brand-name">Eden Bridge</span>
+              <small>Academy</small>
+            </div>
+          </a>
+          <p>Helping young learners grow with purpose, confidence, and joy.</p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>123 Learning Lane, Kogello Junction</li>
+            <li>(+254) 700 123 456</li>
+            <li>hello@edenbridgeacademy.org</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Visit Us</h3>
+          <ul>
+            <li>Mon–Fri: 7:30 AM – 4:00 PM</li>
+            <li>Open for tours and admissions</li>
+            <li>Early childhood programs available</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container copyright">
+        <p>© <span id="year"></span> Eden Bridge Academy. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
